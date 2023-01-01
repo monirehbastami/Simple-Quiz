@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    font-family: b nazanin;
+}
+header{
+    background-color: antiquewhite;
+    width:100vw;
+    height:15vh;
+    position: relative;
+    font-family: b titr;
+    text-align: center;
+    color:rgb(8, 54, 114);
+}
+h1{
+    display: inline-block;
+}
+.container{
+    width:80%;
+    height:60%;
+    /* background-color: aqua; */
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+form{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:50%;
+    background-color: rgb(178, 177, 177);
+    text-align: center;
+    padding:5%
+}
+input,select{
+    padding:15px 32px;
+    display: inline-block;
+    margin:8px 0;
+}
+form>input{
+    width:90%;
+}
+#btn{
+    background-color: rgb(108, 234, 108);
+    border:none;
+    width:50%;
+    font-size:0.8rem;
+    font-family: b titr;
+    cursor: pointer;
+}
+.hidden{
+    display:none
+}
+.porseshname{
+    width:80%;
+    height:60%;
+    background-color: aqua; 
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: right;
+    padding:3%;
+    direction:rtl;
+    /* overflow-y: scroll; */
+    margin:2% 0;
+}
+.item{
+    width:100%
+}
+input[type='checkbox']{
+    width:20px !important;
+    height:20px !important;
+}
+
+input[type='radio']{
+    width:15px !important;
+    height:15px !important;
+}
+.star::before{
+    content: "*";
+    color:red
+}
+#submit{
+    float:left;
+    background-color:rgb(198, 251, 198);
+    border:none;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+footer{
+    position: absolute;
+    bottom: 2%;
+    text-align: center;
+    width:100%
+}
